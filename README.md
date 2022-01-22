@@ -1,7 +1,7 @@
 
 # Coinbugs: Enumerating Common Blockchain Implementation-Level Vulnerabilities
 	
-This repository contain a list of bugs commonly found in L1 blockchain implementations. We'll happily accept PRs and modify the content as new insights happens. It is an more up-to-date version of "Coinbugs: Enumerating Common Blockchain Implementation-Level Vulnerabilities" [link](https://arxiv.org/pdf/2104.06540.pdf).  We'll happily accept PRs and modify the content below. 
+This repository contain a list of bugs commonly found in L1 blockchain implementations. We'll happily accept PRs and update or modify the content. It is a more up-to-date version of "Coinbugs: Enumerating Common Blockchain Implementation-Level Vulnerabilities" [link](https://arxiv.org/pdf/2104.06540.pdf).  We'll happily accept PRs and modify the content below. 
 
 A good amount of effort has been dedicated to surveying and systematizing Ethereum smart contract security bug classes, see e.g. this [survey](https://eprint.iacr.org/2016/1007.pdf), the [DASP](https://dasp.co/) top 10, or [this](https://blog.trailofbits.com/2019/08/08/246-findings-from-our-smart-audits-contract-an-executive-summary/) blog post. This paper, on the contrary, focuses on implementation-level security bugs that commonly occur in blockchain node implementations. In particular, if software which participates in a network by validating and generating new blocks is developed from scratch, WCGW - What Could Go Wrong? 
 
