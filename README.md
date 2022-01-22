@@ -473,17 +473,3 @@ Special-purpose or custom serialization code will also often tolerate junk data,
 ~~~
 
 The `READWRITE` macros are used during deserialization: once the `nLockTime` is read out from the data stream, the deserialization ends and ignores any other data that comes after. As such, it is possible to add an arbitrary junk data suffix to a valid serialized transaction. In Bitcoin, the serialized message was also saved to disk. An actual attack on the Bitcoin network due to this bug was [discussed](https://bitcointalk.org/index.php?topic=258770.0;prev_next=prev) on the Bitcointalk  forum. Mitigations for this issue include (1) not tolerating junk data by the deserialization code (2) the message size should be bounded and (3) messages should be first deserialized and then serialized again before relaying, to avoid relaying any eventual bloat. 
-
-# Conclusion
-
-TKTK
-
-## References
-
-TKTK 
-
-## Authors
-
-Aleksandar Kircanski and Terence Tarvis
-
-NCC Group, 123 Mission St #900, San Francisco, CA 941
